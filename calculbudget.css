@@ -1,0 +1,9 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    background-color: #9fcdff;
+}
+

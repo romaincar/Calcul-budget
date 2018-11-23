@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="evalution1.css">
+    <link rel="stylesheet" href="evaluation_1/bootstrap.css">
+
+
+</head>
+<body>
+<header class="container-fluid pt-5 pb-5" >
+    <h1 class="text-center">CALCULER SON BUDGET MENSUEL</h1>
+</header>
+<section class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <h2>Calcul des Recettes</h2>
+            <button type="submit" id="ajouterecette">Ajouter</button>
+
+        </div>
+        <div class="col-sm-3">
+            <h2>Calcul des dépenses</h2>
+            <button type="submit" id="ajoutedepenses">Ajouter</button>
+
+        </div>
+
+        <div class="col-sm-3">
+            <h2>Epargne</h2>
+            <button type="submit" id="ajouteepargne">Ajouter</button>
+        </div>
+
+        <div class="col-sm-3">
+            <h2>Résultat</h2>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <input placeholder="Nom de la recette" class="mb-2" type="text" id="valrecettes">
+            <input placeholder="Somme de la recette" type="text" id="recettes">
+            <p id="valrec"></p>
+            <p id="rec"></p>
+        </div>
+        <div class="col-sm-3">
+            <input placeholder="Nom de la dépense" class="mb-2" type="text" id="valdepenses">
+            <input placeholder="somme de la recette" type="text" id="depenses">
+            <p id="valdep"></p>
+            <p id="dep"></p>
+
+        </div>
+
+        <div class="col-sm-3">
+            <input placeholder="somme de la recettes" type="text" id="epargne">
+            <p id="eparg"></p>
+        </div>
+
+        <div class="col-sm-3">
+            <p id="resultat"></p>
+
+        </div>
+
+    </div>
+</section>
+
+
+<footer>
+
+    <button type="reset" id="supprime">Supprimer</button>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="evaluation1.js"></script>
+</body>
+</html>
